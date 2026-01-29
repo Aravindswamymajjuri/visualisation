@@ -13,7 +13,7 @@ st.title("📈 Stock Market Visualization Dashboard")
 
 # ---------------- LOAD DATA ----------------
 try:
-    df = pd.read_csv("/home/aravindswamy/stock market/stock_dataset_1000_rows.csv")
+    df = pd.read_csv("./stock_dataset_1000_rows.csv")
 except FileNotFoundError:
     st.error("❌ stock_dataset_1000_rows.csv not found. Keep it in the same folder as app.py")
     st.stop()
